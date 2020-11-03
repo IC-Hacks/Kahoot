@@ -1,0 +1,27 @@
+{
+  "name": "kahoot",
+  "version": "1.0.0",
+  "description": "kahoot bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IC-Hacks/Kahoot.git"
+  },
+  "author": "Itay G and Carl M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IC-Hacks/Kahoot/issues"
+  },
+  "homepage": "https://github.com/IC-Hacks/Kahoot#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "kahoot.js-updated": "^2.1.1",
+    "nodemon": "^2.0.6"
+  }
+}
